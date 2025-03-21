@@ -16,5 +16,5 @@ services:
       - omada-logs:/opt/tplink/EAPController/logs
 
 volumes:
-  omada-data:
-  omada-logs:
+  omada-data: /var/lib/omanda/data
+  omada-logs: /var/log/omanda/logs
